@@ -1,0 +1,25 @@
+.register {
+    display: block;
+    text-align: center;
+    color: red;
+    font-size: 25px;
+    margin-top: 50px;
+
+    p {
+        margin-bottom: 20px;
+    }
+}
+
+.register-btn {
+    border: 1px solid $hoverColor;
+    border-radius: 5px;
+    font-size: 1.3rem;
+
+    background-color: white;
+    padding: 5px;
+    color: black;
+
+    &:hover {
+        background-color: $hoverColor;
+    }
+}

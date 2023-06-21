@@ -1,0 +1,51 @@
+form {
+    display: flex;
+    flex-direction: column;
+
+    &--auth {
+        max-width: 280px;
+        margin: 0 auto;
+    }
+
+    button {
+        border: 1px solid $hoverColor;
+        border-radius: 5px;
+        font-size: 1.3rem;
+        cursor: pointer;
+
+        background-color: white;
+        padding: 5px;
+        color: black;
+
+        &:hover {
+            background-color: $hoverColor;
+        }
+    }
+}
+
+.form-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 50px auto;
+    width: 400px;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+    position: relative;
+    width: 300px;
+    font-size: 1.3rem;
+
+    &--md {
+        margin-bottom: 25px;
+    }
+
+    input {
+        border-radius: 5px;
+        padding: 10px;
+        border: 2px solid gray;
+    }
+}

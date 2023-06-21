@@ -1,0 +1,50 @@
+.range__wrapper {
+    display: flex;
+    margin-bottom: 0;
+}
+
+.range {
+    display: flex;
+    align-items: center;
+    margin-bottom: 0;
+
+    &:not(:last-child) {
+    margin-right: 14px;
+    }
+    &:focus {
+        border: 1px solid red;
+    }
+}
+
+.range__label {
+    color: #959595;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1;
+    margin-bottom: 0;
+    margin-right: 8px;
+}
+
+.range__input {
+    margin-right: 5px;
+    width: 45px;
+    height: 45px;
+    border: 1px solid #e6e6e6;
+    background-color: #ffffff;
+    text-align: center;
+    color: #000000;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 45px;
+
+    &--price {
+    width: 115px;
+    }
+}
+
+.range__value {
+    color: #000000;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1;
+}

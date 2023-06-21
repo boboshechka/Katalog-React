@@ -1,0 +1,60 @@
+@import './vars';
+@import '~bootstrap/scss/bootstrap';
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: $background-color;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.app {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background-color: $background-color;
+    max-height: 100vh;
+    height: 100vh;
+}
+
+.container{
+    max-width: 1170px;
+}
+
+a {
+    color: inherit;
+    text-decoration: inherit;
+}
+
+
+.error {
+    color: red;
+}
+
+.heading-1 {
+    color: #000000;
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 40px;
+    margin: 0;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@import "./blocks/header.scss";
+@import "./blocks/footer.scss";
+@import "./blocks/logo.scss";
+@import "./blocks/form.scss";
+@import "./blocks/register.scss";
+@import "./blocks/filterComponent.scss";
+@import "./blocks/range.scss";
+@import "./blocks/cards/cards.scss";
+@import "./blocks/card/object.scss";
